@@ -557,3 +557,85 @@ img {
 .f-icon-list-svg {
   fill: #f4f4fd;
 }
+
+.f-form-cont {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.f-form-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+
+  margin-bottom: 16px;
+}
+
+.f-form {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.f-email {
+  padding: 8px;
+
+  background-color: #2e2f42;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  width: 264px;
+  height: 40px;
+}
+
+.f-email::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+
+  border: none;
+  border-radius: 4px;
+  background: #4d5ae5;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  cursor: pointer;
+}
+
+.footer-button:hover .f-email:hover {
+  background-color: #404bbf;
+}
+
+.footer-button:focus .f-email:focus {
+  background-color: #404bbf;
+}
+
+.f-form-icon {
+  margin-left: 16px;
+  fill: #fff;
+}
