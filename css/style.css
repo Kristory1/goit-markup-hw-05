@@ -581,12 +581,17 @@ img {
 }
 
 .f-email {
-  padding: 8px;
+  padding-left: 16px;
 
-  background-color: #2e2f42;
+  background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: 1px solid #fff;
   border-radius: 4px;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 
   width: 264px;
   height: 40px;
@@ -598,7 +603,7 @@ img {
   font-size: 12px;
   line-height: 200%;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-button {
